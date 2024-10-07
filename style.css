@@ -75,11 +75,11 @@ img[alt="Banner"] {
 .mdi-gender-transgender:hover {
 	color: linear-gradient(
 		0deg,
-		rgba(0, 241, 255, 1) 0%,
-		rgba(255, 137, 238, 1) 25%,
-		rgba(255, 255, 255, 1) 50%,
-		rgba(255, 137, 238, 1) 75%,
-		rgba(0, 241, 255, 1) 100%
+		#00ffff 0%,
+		#ffaacc 25%,
+		#ffffff 50%,
+		#ffaacc 75%,
+		#00ffff 100%
 	);
 }
 .bottom {
