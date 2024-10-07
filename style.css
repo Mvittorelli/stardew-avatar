@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+	color: #fff;
+	font-family: "Inter", sans-serif;
+}
+
+body {
+	background-color: #484444;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card {
+	height: max-content;
+	background-color: #2f2f2f;
+	border-radius: 12px;
+	width: 40%;
+}
+
+.info {
+	margin: 5%;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+}
+
+.gender {
+	margin-top: 5%;
+	justify-content: space-around;
+	align-items: center;
+	display: flex;
+	width: 80%;
+}
+
+.mdi {
+	width: 0;
+	font-size: 32px;
+	color: #fff;
+	transition: 0.3s;
+}
+.user {
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+}
+img[alt="Banner"] {
+	width: 100%;
+	border-radius: 12px 12px 0 0;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mdi-gender-female:hover,
+.mdi-gender-female:focus {
+	color: rgb(255, 152, 212);
+}
+.mdi-gender-male:hover,
+.mdi-gender-male:focus {
+	color: rgb(136, 225, 255);
+}
+.mdi-gender-non-binary:hover,
+.mdi-gender-non-binary:focus {
+	color: rgb(255, 255, 138);
+}
+.mdi-gender-transgender:hover {
+	color: linear-gradient(
+		0deg,
+		rgba(0, 241, 255, 1) 0%,
+		rgba(255, 137, 238, 1) 25%,
+		rgba(255, 255, 255, 1) 50%,
+		rgba(255, 137, 238, 1) 75%,
+		rgba(0, 241, 255, 1) 100%
+	);
+}
+.bottom {
+	margin-top: 10%;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+}
+
+hr {
+	margin-bottom: 5%;
+	border-radius: 5px;
+	border: none;
+	background-color: #fff;
+	width: 90%;
+	height: 3px;
+}
+
+button {
+	margin-bottom: 5%;
+	border-radius: 5px;
+	background-color: #3da92e;
+	outline: none;
+	border: none;
+	padding: 20px 40px 20px 40px;
+	width: fit-content;
+	transition: 0.3s;
+	box-shadow: 15px 15px #00000027;
+}
+
+button:hover {
+	background-color: #61c454;
+	box-shadow: 5px 5px #00000027;
+}
+
+label {
+	font-weight: 700;
+}
+
+input {
+	margin: 5% 5% 10% 5%;
+	background-color: #3e5662;
+	color: #98acb6;
+	border: none;
+	outline: none;
+	border-radius: 8px;
+	padding: 10px;
+}
