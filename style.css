@@ -72,16 +72,19 @@ img[alt="Banner"] {
 .mdi-gender-non-binary:focus {
 	color: rgb(255, 255, 138);
 }
-.mdi-gender-transgender:hover {
-	color: linear-gradient(
-		0deg,
+/* .tr:hover {
+	background: linear-gradient(
+		90deg,
 		#00ffff 0%,
 		#ffaacc 25%,
 		#ffffff 50%,
 		#ffaacc 75%,
 		#00ffff 100%
 	);
-}
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+} */
 .bottom {
 	margin-top: 10%;
 	flex-direction: column;
